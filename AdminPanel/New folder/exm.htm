@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sss</title>
+</head>
+<body>
+<div data-visible="accommodation,flights" class="xp__input-group xp__guests" data-component="search/group/group-with-modal" data-sb-id="main" tabindex="0">
+<div data-component="xp-index/guest-errors" data-sb-id="main" data-view-id="accommodation" role="alert">
+</div>
+<label
+id="xp__guests__toggle"
+for="xp__guests__input"
+class="xp__input"
+data-group-toggle
+>
+<span class="xp__guests__count">
+<span data-adults-count>
+2 adults
+</span>
+<span data-visible="accommodation">
+&nbsp;&middot;&nbsp;
+<span data-children-count>
+0 children
+</span>
+</span>
+<span data-visible="accommodation">
+&nbsp;&middot;&nbsp;
+<span data-room-count>
+1 room
+</span>
+</span>
+</span>
+</label>
+<input type="checkbox" id="xp__guests__input" />
+<div class="xp__guests__inputs focussable " data-group-modal style="display: none;">
+<div
+data-component="search/group/group"
+data-sb-id="main"
+data-sb-width="medium"
+data-sb-bbtool-searchbox="0"
+data-sb-group-children-hide="0"
+data-sb-group-children-ages-hide="0"
+data-sb-group-infants-hide="1"
+data-sb-group-pets-hide="0"
+data-sb-group-rooms-hide="0"
+data-sb-group-block-labels="0"
+data-sb-group-use_adults_label="0"
+data-sb-group-always-expanded="0"
+data-sb-group-use-bui-stepper="1"
+data-fe_sb_group_descriptive_dropdowns="0"
+data-fe_sb_universal_design="0"
+data-fe_sb_xpi="1"
+data-fe_remove_duplicate_ids="0"
+data-fe_sb_unique_id=""
+data-sb_reorder_rooms_block="1"
+>
+<div class="u-clearfix" data-render>
+<div class="sb-group__field sb-group__field-adults">
+<div class="bui-stepper" data-bui-component="InputStepper">
+<div class="bui-stepper__title-wrapper">
+<label class="bui-stepper__title" for="group_adults">Adults</label>
+</div>
+<div class="bui-stepper__wrapper">
+<input type="range" class="bui-stepper__input" data-bui-ref="input-stepper-field" id="group_adults" name="group_adults" min="1" max="30" value="2" data-group-adults-count />
+<button class="bui-button bui-button--secondary bui-stepper__subtract-button" data-bui-ref="input-stepper-subtract-button" type="button" aria-hidden="true" >
+<span class="bui-button__text">-</span>
+</button>
+<span class="bui-stepper__display" data-bui-ref="input-stepper-value" aria-hidden="true">2</span>
+<button class="bui-button bui-button--secondary bui-stepper__add-button" data-bui-ref="input-stepper-add-button" type="button" aria-hidden="true" >
+<span class="bui-button__text">+</span>
+</button>
+</div>
+</div>
+</div>
+<div class="sb-group__field sb-group-children ">
+<div class="bui-stepper" data-bui-component="InputStepper">
+<div class="bui-stepper__title-wrapper">
+<label class="bui-stepper__title" for="group_children">Children</label>
+</div>
+<div class="bui-stepper__wrapper">
+<input type="range" class="bui-stepper__input" data-bui-ref="input-stepper-field" id="group_children" name="group_children" min="0" max="10" value="0" data-group-children-count />
+<button class="bui-button bui-button--secondary bui-stepper__subtract-button" data-bui-ref="input-stepper-subtract-button" type="button" aria-hidden="true" disabled>
+<span class="bui-button__text">-</span>
+</button>
+<span class="bui-stepper__display" data-bui-ref="input-stepper-value" aria-hidden="true">0</span>
+<button class="bui-button bui-button--secondary bui-stepper__add-button" data-bui-ref="input-stepper-add-button" type="button" aria-hidden="true" >
+<span class="bui-button__text">+</span>
+</button>
+</div>
+</div>
+</div>
+<div class="sb-group__field sb-group__field-rooms">
+<div class="bui-stepper" data-bui-component="InputStepper">
+<div class="bui-stepper__title-wrapper">
+<label class="bui-stepper__title" for="no_rooms">Rooms</label>
+</div>
+<div class="bui-stepper__wrapper">
+<input type="range" class="bui-stepper__input" data-bui-ref="input-stepper-field" id="no_rooms" name="no_rooms" min="1" max="30" value="1" data-group-rooms-count />
+<button class="bui-button bui-button--secondary bui-stepper__subtract-button" data-bui-ref="input-stepper-subtract-button" type="button" aria-hidden="true" disabled>
+<span class="bui-button__text">-</span>
+</button>
+<span class="bui-stepper__display" data-bui-ref="input-stepper-value" aria-hidden="true">1</span>
+<button class="bui-button bui-button--secondary bui-stepper__add-button" data-bui-ref="input-stepper-add-button" type="button" aria-hidden="true" >
+<span class="bui-button__text">+</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
